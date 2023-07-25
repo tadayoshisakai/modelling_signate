@@ -1,0 +1,16 @@
+,column,type,min,max,mean,median,variation,mode
+0,id,int64,27532,55068,41300.0,41300.0,,
+1,region,object,,,,,372.0,central NJ
+2,year,int64,1918,3019,2007.84,2011.0,,
+3,manufacturer,object,,,,,125.0,ford
+4,condition,object,,,,,6.0,excellent
+5,cylinders,object,,,,,8.0,6 cylinders
+6,fuel,object,,,,,6.0,gas
+7,odometer,int64,-1,394595,116592.78,112436.0,,
+8,title_status,object,,,,,7.0,clean
+9,transmission,object,,,,,3.0,automatic
+10,drive,object,,,,,3.0,fwd
+11,size,object,,,,,9.0,full-size
+12,type,object,,,,,14.0,sedan
+13,paint_color,object,,,,,12.0,black
+14,state,object,,,,,52.0,ca
