@@ -1,4 +1,6 @@
 .vscode/
-figure/
 venv/
-result/
+figure/*
+!.gitkeep
+result/*
+!.gitkeep
