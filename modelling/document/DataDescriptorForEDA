@@ -1,0 +1,16 @@
+
+DataVisualizer
+
+
+(Super) EDASpecificationDescriptor
+    (Attr) df  #EDA対象のデータフレーム(pd.DataFrame)
+    (Attr) tgval   #目的変数のカラム名(string)
+    (Attr) short_desc  #EDA対象データの説明
+    (Method) _describe_column_specification(col)    #引数として受け取ったカラムの統計数値概要を出力しEDAフォルダ配下にtxtファイルとして出力するメソッド
+
+    L(Sub) IntColumnSpecificationDescriptor #Int64型のカラム特徴を表現するクラス
+        (Attr) int_cols    #対象データフレームにおけるInt64型のカラム名リスト([string])
+
+    L(Sub) ObjColumnSpecificationDescriptor #Object型のカラム特徴を表現するクラス
+        (Attr) obj_cols    #対象データフレームにおけるObject型のカラム名リスト([string])
+        (Method) _describe_cat_specification_detail(col) #Object型カラムの各カテゴリカル変数でフィルタした目的変数シリーズの統計数値概要をtextファイルとして出力するメソッド
