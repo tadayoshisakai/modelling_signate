@@ -56,6 +56,7 @@ class DataDescriptor:
         if not self._is_df_columns(df, col):
             print("DataDescriptor().scatter_plot_multi(): elem in col is not valid")
             return
+
         for i, e in enumerate(col):
             plt.clf()
             plt.scatter(df[e], df[tgval])
@@ -63,7 +64,6 @@ class DataDescriptor:
             plt.ylabel(tgval)
             plt.savefig("../figure/scatterPlot_" + datadesc + "_" + e +
                         ".png", format="png", dpi=300)
-            # plt.show()
 
     def dist_plot_multi(self, df, col, tgval, datadesc="data"):
         print("DataDescriptor().dist_plot_multi(): Initialize")
@@ -71,22 +71,30 @@ class DataDescriptor:
             print("DataDescriptor().dist_plot_multi(): elem in col is not valid")
             return
         for i, e in enumerate(col):
+            print("DataDescriptor().dist_plot_multi(): describe column " + e)
+            plt.clf()
+            plt.hist(df[e].dropna())
+            plt.title(datadesc + "_" + e)
+            plt.xlabel(e)
+            plt.savefig("../figure/distPlot_" + datadesc +
+                        "_" + e + ".png", format="png", dpi=300)
             if df[e].dtype == 'object':
                 RANGE = [0, df[tgval].max()]
-                for cat in df[e].unique():
+                for cat in df[e].dropna().unique():
                     plt.clf()
                     plt.hist(df[tgval][df[e] == cat], range=RANGE)
                     plt.title(datadesc + "_" + e + "_" + cat)
                     plt.xlabel(tgval)
                     plt.savefig("../figure/distPlot_" + datadesc + "_" + tgval + "(" +
                                 e + "=" + cat + ").png", format="png", dpi=300)
-            elif df[e].dtype == 'int':
-                plt.clf()
-                plt.hist(df[e])
-                plt.title(datadesc + "_" + e)
-                plt.xlabel(e)
-                plt.savefig("../figure/distPlot_" + datadesc +
-                            "_" + e + ".png", format="png", dpi=300)
+
+            # elif df[e].dtype == 'int':
+            #     plt.clf()
+            #     plt.hist(df[e])
+            #     plt.title(datadesc + "_" + e)
+            #     plt.xlabel(e)
+            #     plt.savefig("../figure/distPlot_" + datadesc +
+            #                 "_" + e + ".png", format="png", dpi=300)
 
     def box_plot_multi(self, df, col, tgval, datadesc="data"):
         print("DataDescriptor().box_plot_multi(): Initialize")
@@ -119,11 +127,11 @@ class DataDescriptor:
         self.describe_column_specification(train, "train")
         self.describe_column_specification(test, "test")
         self.scatter_plot_multi(
-            train, ['odometer', 'year'], "price", "train")
+            train, ['odometer', 'condition'], "price", "train")
         self.box_plot_multi(
             train, ['condition', 'cylinders', 'fuel', 'title_status', 'transmission', 'drive', 'size', 'type', 'paint_color'], "price", "train")
         self.dist_plot_multi(
-            train, ['price', 'odometer', 'condition'], "price", "train")
+            train, ['price', 'condition', 'cylinders', 'fuel', 'title_status', 'transmission', 'drive', 'size', 'type', 'paint_color'], "price", "train")
 
 
 if __name__ == '__main__':
