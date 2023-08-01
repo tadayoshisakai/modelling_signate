@@ -43,13 +43,17 @@ class EDASpecificationDescriptor:
                 tmp_list.append("MAX:" + str(self.df[e].max()))
                 tmp_list.append("mean:" + str(round(self.df[e].mean(), 2)))
                 tmp_list.append("median:" + str(self.df[e].median()))
+                tmp_list.append("null:" + str(self.df[e].isnull().sum()))
             else:
                 tmp_list.append("Type:" + str(self.df[e].dtype))
                 tmp_list.append("Column Name:" + e)
                 tmp_list.append("Data variation:" +
                                 str(len(self.df[e].unique())))
                 tmp_list.append("mode:" + str(self.df[e].mode()[0]))
+                tmp_list.append("null:" + str(self.df[e].isnull().sum()))
             mylist.append("    ".join(tmp_list))
+        mylist.append(
+            "size:" + str(self.df.shape[0]) + ", " + str(self.df.shape[1]))
         print("\n".join(mylist))
         f = open('../EDA/' + self.short_desc +
                  '_overview.txt', 'w')
