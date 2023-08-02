@@ -41,9 +41,12 @@ class IntColumnSpecificationDescriptor(EDASpecificationDescriptor):
 
     def get_description(self):
         for i, e in enumerate(self.int_cols):
-            self._describe_column_specification(e)
-            self._export_scatterplot(e)
-            self._expor_distplot(e)
+            if not self._is_df_column(e):
+                print(e + " is not in self.df columns.")
+            else:
+                self._describe_column_specification(e)
+                self._export_scatterplot(e)
+                self._expor_distplot(e)
 
 
 def main():

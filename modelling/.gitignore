@@ -4,7 +4,5 @@ figure/*
 !.gitkeep
 result/*
 !.gitkeep
-document/*
-!DataDescriptorForEDA
 EDA/*
 !.gitkeep

@@ -60,6 +60,12 @@ class EDASpecificationDescriptor:
         f.write("\n".join(mylist))
         f.close()
 
+    def _is_df_column(self, col):
+        if col in self.df.columns:
+            return True
+        else:
+            return False
+
     def _traindata_test(self):
         print("EDASpecificationDescriptor: _traindata_test()")
         df = pd.read_csv("../data/train.csv")

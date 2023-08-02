@@ -19,7 +19,7 @@ class ObjColumnSpecificationDescriptor(EDASpecificationDescriptor):
             desc.name = e
             result = pd.concat([result, desc], axis=1)
         result.T.to_csv("../EDA/" + self.short_desc + "_description(" + str(
-            self.df[self.tgval].dtype) + ")_" + self.tgval + "(" + col + ").txt", sep="\t")
+            self.df[self.tgval].dtype) + ")_" + self.tgval + "(" + col + ").txt", sep="\t", encoding='utf-8')
 
     def _box_plot(self, col):
         print("ObjColumnSpecificationDescriptor: _describe_box_plot()")
@@ -38,14 +38,17 @@ class ObjColumnSpecificationDescriptor(EDASpecificationDescriptor):
 
     def get_description(self):
         for i, e in enumerate(self.obj_cols):
-            self._describe_column_specification(e)
-            self._describe_cat_specification_detail(e)
-            self._box_plot(e)
+            if not self._is_df_column(e):
+                print(e + " is not in self.df columns.")
+            else:
+                self._describe_column_specification(e)
+                self._describe_cat_specification_detail(e)
+                self._box_plot(e)
 
 
 def main():
     print("IntColumnSpecificationDescriptor: main()")
-    train = pd.read_csv("../data/train.csv")
+    train = pd.read_csv("../data/train.csv", encoding='utf-8')
     TrainColSpecDesc = ObjColumnSpecificationDescriptor(train, "TRAIN")
     TrainColSpecDesc.get_description()
 
