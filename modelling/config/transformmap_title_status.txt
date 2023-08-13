@@ -1,0 +1,7 @@
+from,to
+clean,clean
+rebuilt,rebuilt
+parts only,parts_only
+salvage,salvage
+missing,missing
+lien,lien

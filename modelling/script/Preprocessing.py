@@ -1,64 +1,54 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 25 07:20:22 2023
-
-@author: sakaitadayoshi[]
-"""
 import pandas as pd
+from sklearn.model_selection import train_test_split
+from logutil import logutil
 
 
-class DataSanitizer():
-    def __init__(self, df, short_desc):
-        print("DataSanitizer: __init__()")
+class Preprocessing():
+    def __init__(self,df,short_desc):
+        self.logger = logutil().getlogger()
+        self.logger.info("START / args = {short_desc:" + short_desc + "}")
         self.df = df
         self.short_desc = short_desc
-        self.dfsize = df.shape
+        self.tgval = "price"
+        self.logger.info("END")
+    def _int_to_string(self,cols):
+        self.logger.info("START / args = {cols:[" + ",".join(cols) + "]}")
+        num2str_list = ['MSSubClass','YrSold','MoSold']
+        for col in cols:
+            self.df[col] = self.df[col].astype(str)
+        self.logger.info("END")        
 
-    def _sanitize_year(self):
-        self._outlier_exception("year < 2050")
+    def _onehot_encoding(self):
+        self.logger.info("START")
+        self.df = pd.get_dummies(self.df)
+        self.logger.info("END")
 
-    def _sanitize_odometer(self):
-        self._outlier_exception("odometer > 0 & odometer < 500000")
+    def _split_dataframe(self):
+        self.train_x, self.test_x, self.train_y, self.test_y = train_test_split(self.df.drop(self.tgval, axis=1), self.df[self.tgval], test_size=0.3, random_state=0)
 
-    def _sanitize_region(self):
-        self._drop_column("region")
 
-    def _sanitize_state(self):
-        self._drop_column("state")
-
-    def _sanitize_manufacturer(self):
-        self._transform_category(
-            "manufacturer", "../config/transformmap_manufacturer.csv")
-
-    def _outlier_exception(self, q):
-        init_size = self.df.shape
-        print("DataSanitizer._outlier_exception(): Initialize")
-        self.df = self.df.query(q)
-        print("DataSanitizer._outlier_exception(): Query(" + q + ")-> " +
-              str(init_size[0] - self.df.shape[0]) + "row removed.")
-
-    def _drop_column(self, col):
-        self.df = self.df.drop(col, axis=1)
-
-    def _transform_category(self, col, map_path):
-        transform_map = pd.read_csv(map_path, encoding='shift-jis')
-        print(transform_map.head())
-
-    def get_sanitized_dataframe(self):
-        self._sanitize_year()
-        self._sanitize_odometer()
-        self._sanitize_region()
-        self._sanitize_state()
-        self._sanitize_manufacturer()
+    def get_preprocessed_dataset(self):
+        self.logger.info("START")
+        #self._int_to_string(["year"])
+        self._onehot_encoding()
+        self._split_dataframe()
+        self.logger.info("END")
+        dataset = {"train_x": self.train_x, "train_y": self.train_y, "test_x": self.test_x, "test_y": self.test_y}
+        return dataset
+    
+    def get_preprocessed_dataframe(self):
+        self.logger.info("START")
+        #self._int_to_string(["year"])
+        self._onehot_encoding()
+        self.logger.info("END")
         return self.df
 
-
 def main():
-    print("Preprocessing: main()")
-    df = pd.read_csv("../data/train.csv")
-    DataSanitizer(df, "TRAIN(SAN)").get_sanitized_dataframe()
+    train = pd.read_csv("../data/train.csv")    
+    prepro = Preprocessing(train,"TRAIN_SAN")
+    test = prepro.get_preprocessed_dataframe()
+    print(test.head())
 
 
-if __name__ == "__main__":
+if __name__=='__main__':
     main()

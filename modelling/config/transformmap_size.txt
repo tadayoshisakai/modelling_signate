@@ -1,0 +1,10 @@
+from,to
+mid-size,mid_size
+full-size,full_size
+sub-compact,sub_compact
+compact,compact
+full−size,full_size
+fullーsize,full_size
+mid−size,mid_size
+midーsize,mid_size
+subーcompact,sub_compact

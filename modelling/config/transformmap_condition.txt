@@ -1,0 +1,7 @@
+from,to
+excellent,excellent
+fair,fair
+good,good
+like new,like_new
+salvage,salvage
+new,new

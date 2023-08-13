@@ -10,6 +10,7 @@ from sklearn.metrics import mean_squared_error
 # 可視化用ライブラリ
 import matplotlib.pyplot as plt
 import seaborn as sns
+from logutil import logutil
 
 
 def main():
@@ -18,21 +19,25 @@ def main():
 
 class EDASpecificationDescriptor:
     def __init__(self, df, short_desc):
-        print("EDASpecificationDescriptor: __init__()")
+        self.logger = logutil().getlogger()
+        self.logger.info("START / args = {short_desc:" + short_desc + "}")
         self.df = df
         self.short_desc = short_desc
         self.tgval = "price"
         self.cols = self.df.columns
         self._describe_columns_overview()
+        self.logger.info("END")
 
     def _describe_column_specification(self, col):
-        print("EDASpecificationDescriptor: _describe_specification()")
+        self.logger.info("START")
         result = self.df[col].describe(percentiles=[.25, .5, .75, .95])
         result.to_csv("../EDA/" + self.short_desc +
                       "_description(" + str(self.df[col].dtype) + ")_" + col + ".txt", sep="\t")
+        self.logger.info("END")
         return result
 
     def _describe_columns_overview(self):
+        self.logger.info("START")
         mylist = []
         for i, e in enumerate(self.cols):
             tmp_list = []
@@ -54,13 +59,14 @@ class EDASpecificationDescriptor:
             mylist.append("    ".join(tmp_list))
         mylist.append(
             "size:" + str(self.df.shape[0]) + ", " + str(self.df.shape[1]))
-        print("\n".join(mylist))
         f = open('../EDA/' + self.short_desc +
                  '_overview.txt', 'w')
         f.write("\n".join(mylist))
         f.close()
+        self.logger.info("END")
 
     def _is_df_column(self, col):
+        self.logger.info("START / args = {col:" + col + "}")
         if col in self.df.columns:
             return True
         else:

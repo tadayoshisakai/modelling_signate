@@ -1,0 +1,639 @@
+2023-08-13 13:32:00,156:modellingLogger:__main__:main:INFO:START
+2023-08-13 13:32:00,268:modellingLogger:IntColumnSpecificationDescriptor:__init__:INFO:START / args ={short_desc:TRAIN}
+2023-08-13 13:32:00,273:modellingLogger:EDASpecificationDescriptor:__init__:INFO:START / args = {short_desc:TRAIN}
+2023-08-13 13:32:00,273:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:START
+2023-08-13 13:32:00,372:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:END
+2023-08-13 13:32:00,372:modellingLogger:EDASpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:00,372:modellingLogger:IntColumnSpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:00,372:modellingLogger:IntColumnSpecificationDescriptor:get_description:INFO:START
+2023-08-13 13:32:00,373:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:price}
+2023-08-13 13:32:00,373:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:00,379:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:00,380:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:price}
+2023-08-13 13:32:00,380:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:WARNING:Target val 'price' is not applicable to scatter plot.
+2023-08-13 13:32:00,380:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:price}
+2023-08-13 13:32:01,204:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:01,204:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:odometer}
+2023-08-13 13:32:01,204:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:01,212:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:01,212:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:odometer}
+2023-08-13 13:32:01,877:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:END
+2023-08-13 13:32:01,877:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:odometer}
+2023-08-13 13:32:02,237:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:02,237:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:year}
+2023-08-13 13:32:02,237:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:02,244:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:02,244:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:year}
+2023-08-13 13:32:02,971:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:END
+2023-08-13 13:32:02,971:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:year}
+2023-08-13 13:32:03,332:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:03,333:modellingLogger:IntColumnSpecificationDescriptor:get_description:INFO:END
+2023-08-13 13:32:03,338:modellingLogger:ObjColumnSpecificationDescriptor:__init__:INFO:START / args = {short_desc:TRAIN}
+2023-08-13 13:32:03,343:modellingLogger:EDASpecificationDescriptor:__init__:INFO:START / args = {short_desc:TRAIN}
+2023-08-13 13:32:03,343:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:START
+2023-08-13 13:32:03,436:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:END
+2023-08-13 13:32:03,436:modellingLogger:EDASpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:03,436:modellingLogger:ObjColumnSpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:03,436:modellingLogger:ObjColumnSpecificationDescriptor:get_description:INFO:START
+2023-08-13 13:32:03,436:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:region}
+2023-08-13 13:32:03,437:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:03,446:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:03,447:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:region}
+2023-08-13 13:32:06,382:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:06,383:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:region}
+2023-08-13 13:32:06,386:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:WARNING:pd.Series[region] category too much.
+2023-08-13 13:32:06,386:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:06,387:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:06,395:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:06,395:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:07,246:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:07,246:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:07,249:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:WARNING:pd.Series[manufacturer] category too much.
+2023-08-13 13:32:07,249:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:condition}
+2023-08-13 13:32:07,249:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:07,259:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:07,259:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:condition}
+2023-08-13 13:32:07,310:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:07,310:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:condition}
+2023-08-13 13:32:07,859:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:07,859:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:07,859:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:07,868:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:07,869:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:07,935:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:07,935:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:08,483:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:08,483:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:fuel}
+2023-08-13 13:32:08,483:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:08,493:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:08,493:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:fuel}
+2023-08-13 13:32:08,537:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:08,537:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:fuel}
+2023-08-13 13:32:09,030:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:09,030:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:title_status}
+2023-08-13 13:32:09,030:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:09,039:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:09,040:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:title_status}
+2023-08-13 13:32:09,090:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:09,090:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:title_status}
+2023-08-13 13:32:09,587:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:09,588:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:transmission}
+2023-08-13 13:32:09,588:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:09,597:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:09,597:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:transmission}
+2023-08-13 13:32:09,629:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:09,630:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:transmission}
+2023-08-13 13:32:10,089:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:10,089:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:drive}
+2023-08-13 13:32:10,089:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:10,098:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:10,098:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:drive}
+2023-08-13 13:32:10,127:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:10,128:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:drive}
+2023-08-13 13:32:10,573:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:10,573:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:size}
+2023-08-13 13:32:10,573:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:10,583:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:10,583:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:size}
+2023-08-13 13:32:10,654:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:10,654:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:size}
+2023-08-13 13:32:11,212:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:11,212:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:11,212:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:11,221:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:11,222:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:11,313:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:11,313:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:11,914:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:11,914:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:state}
+2023-08-13 13:32:11,914:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:11,923:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:11,923:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:state}
+2023-08-13 13:32:12,273:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:12,274:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:state}
+2023-08-13 13:32:12,275:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:WARNING:pd.Series[state] category too much.
+2023-08-13 13:32:12,275:modellingLogger:ObjColumnSpecificationDescriptor:get_description:INFO:END
+2023-08-13 13:32:12,281:modellingLogger:DataSanitizer:__init__:INFO:START / args = {short_desc:TRAIN}
+2023-08-13 13:32:12,281:modellingLogger:DataSanitizer:__init__:INFO:END
+2023-08-13 13:32:12,281:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:START
+2023-08-13 13:32:12,281:modellingLogger:DataSanitizer:_sanitize_year:INFO:START
+2023-08-13 13:32:12,281:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:year < 2050}
+2023-08-13 13:32:12,298:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(year < 2050)-> 4row removed.
+2023-08-13 13:32:12,298:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-13 13:32:12,299:modellingLogger:DataSanitizer:_sanitize_year:INFO:END
+2023-08-13 13:32:12,299:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:START
+2023-08-13 13:32:12,299:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:odometer > 0 & odometer < 500000}
+2023-08-13 13:32:12,312:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(odometer > 0 & odometer < 500000)-> 271row removed.
+2023-08-13 13:32:12,312:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-13 13:32:12,312:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:END
+2023-08-13 13:32:12,313:modellingLogger:DataSanitizer:_sanitize_region:INFO:START
+2023-08-13 13:32:12,313:modellingLogger:DataSanitizer:_drop_column:INFO:START / args = {col:region}
+2023-08-13 13:32:12,320:modellingLogger:DataSanitizer:_drop_column:INFO:END
+2023-08-13 13:32:12,321:modellingLogger:DataSanitizer:_sanitize_region:INFO:END
+2023-08-13 13:32:12,321:modellingLogger:DataSanitizer:_sanitize_state:INFO:START
+2023-08-13 13:32:12,321:modellingLogger:DataSanitizer:_drop_column:INFO:START / args = {col:state}
+2023-08-13 13:32:12,327:modellingLogger:DataSanitizer:_drop_column:INFO:END
+2023-08-13 13:32:12,327:modellingLogger:DataSanitizer:_sanitize_state:INFO:END
+2023-08-13 13:32:12,327:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:START
+2023-08-13 13:32:12,327:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:manufacturer,map_path:../config/transformmap_manufacturer.txt}
+2023-08-13 13:32:12,933:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:12,933:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:END
+2023-08-13 13:32:12,933:modellingLogger:DataSanitizer:_sanitize_condition:INFO:START
+2023-08-13 13:32:12,933:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:condition,map_path:../config/transformmap_condition.txt}
+2023-08-13 13:32:12,969:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:12,969:modellingLogger:DataSanitizer:_sanitize_condition:INFO:END
+2023-08-13 13:32:12,969:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:START
+2023-08-13 13:32:12,969:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:cylinders,map_path:../config/transformmap_cylinders.txt}
+2023-08-13 13:32:13,019:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:13,019:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:END
+2023-08-13 13:32:13,019:modellingLogger:DataSanitizer:_sanitize_size:INFO:START
+2023-08-13 13:32:13,020:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:size,map_path:../config/transformmap_size.txt}
+2023-08-13 13:32:13,070:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:13,070:modellingLogger:DataSanitizer:_sanitize_size:INFO:END
+2023-08-13 13:32:13,070:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:START
+2023-08-13 13:32:13,070:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:title_status,map_path:../config/transformmap_title_status.txt}
+2023-08-13 13:32:13,107:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:13,107:modellingLogger:DataSanitizer:_drop_nan:INFO:START / args = {col:title_status}
+2023-08-13 13:32:13,117:modellingLogger:DataSanitizer:_drop_nan:INFO:449 row removed.
+2023-08-13 13:32:13,117:modellingLogger:DataSanitizer:_drop_nan:INFO:END
+2023-08-13 13:32:13,117:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:END
+2023-08-13 13:32:13,117:modellingLogger:DataSanitizer:_sanitize_type:INFO:START
+2023-08-13 13:32:13,117:modellingLogger:DataSanitizer:_drop_nan:INFO:START / args = {col:type}
+2023-08-13 13:32:13,129:modellingLogger:DataSanitizer:_drop_nan:INFO:0 row removed.
+2023-08-13 13:32:13,130:modellingLogger:DataSanitizer:_drop_nan:INFO:END
+2023-08-13 13:32:13,130:modellingLogger:DataSanitizer:_sanitize_type:INFO:END
+2023-08-13 13:32:13,130:modellingLogger:DataSanitizer:_sanitize_price:INFO:START
+2023-08-13 13:32:13,130:modellingLogger:DataSanitizer:_to_log:INFO:START / args = {col:price}
+2023-08-13 13:32:13,132:modellingLogger:DataSanitizer:_to_log:INFO:END
+2023-08-13 13:32:13,132:modellingLogger:DataSanitizer:_sanitize_price:INFO:END
+2023-08-13 13:32:13,133:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:END
+2023-08-13 13:32:13,138:modellingLogger:IntColumnSpecificationDescriptor:__init__:INFO:START / args ={short_desc:TRAIN(SAN)}
+2023-08-13 13:32:13,143:modellingLogger:EDASpecificationDescriptor:__init__:INFO:START / args = {short_desc:TRAIN(SAN)}
+2023-08-13 13:32:13,143:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:START
+2023-08-13 13:32:13,225:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:END
+2023-08-13 13:32:13,225:modellingLogger:EDASpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:13,225:modellingLogger:IntColumnSpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:13,225:modellingLogger:IntColumnSpecificationDescriptor:get_description:INFO:START
+2023-08-13 13:32:13,226:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:price}
+2023-08-13 13:32:13,226:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:13,233:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:13,233:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:price}
+2023-08-13 13:32:13,233:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:WARNING:Target val 'price' is not applicable to scatter plot.
+2023-08-13 13:32:13,233:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:price}
+2023-08-13 13:32:13,827:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:13,827:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:odometer}
+2023-08-13 13:32:13,827:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:13,834:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:13,834:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:odometer}
+2023-08-13 13:32:14,569:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:END
+2023-08-13 13:32:14,569:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:odometer}
+2023-08-13 13:32:15,000:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:15,001:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:year}
+2023-08-13 13:32:15,001:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:15,007:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:15,007:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:year}
+2023-08-13 13:32:15,713:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:END
+2023-08-13 13:32:15,714:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:year}
+2023-08-13 13:32:16,108:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:16,108:modellingLogger:IntColumnSpecificationDescriptor:get_description:INFO:END
+2023-08-13 13:32:16,113:modellingLogger:ObjColumnSpecificationDescriptor:__init__:INFO:START / args = {short_desc:TRAIN(SAN)}
+2023-08-13 13:32:16,118:modellingLogger:EDASpecificationDescriptor:__init__:INFO:START / args = {short_desc:TRAIN(SAN)}
+2023-08-13 13:32:16,119:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:START
+2023-08-13 13:32:16,200:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:END
+2023-08-13 13:32:16,201:modellingLogger:EDASpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:16,201:modellingLogger:ObjColumnSpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:16,201:modellingLogger:ObjColumnSpecificationDescriptor:get_description:INFO:START
+2023-08-13 13:32:16,201:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:region}
+2023-08-13 13:32:16,201:modellingLogger:ObjColumnSpecificationDescriptor:get_description:WARNING:column region is not in dataframe column.
+2023-08-13 13:32:16,201:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:16,201:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:16,211:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:16,211:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:16,471:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:16,472:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:17,507:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:17,507:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:condition}
+2023-08-13 13:32:17,508:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:17,517:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:17,517:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:condition}
+2023-08-13 13:32:17,571:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:17,572:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:condition}
+2023-08-13 13:32:18,048:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:18,048:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:18,049:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:18,057:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:18,058:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:18,123:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:18,123:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:18,608:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:18,608:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:fuel}
+2023-08-13 13:32:18,608:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:18,617:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:18,617:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:fuel}
+2023-08-13 13:32:18,662:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:18,662:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:fuel}
+2023-08-13 13:32:19,124:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:19,124:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:title_status}
+2023-08-13 13:32:19,124:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:19,133:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:19,134:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:title_status}
+2023-08-13 13:32:19,187:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:19,187:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:title_status}
+2023-08-13 13:32:19,636:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:19,636:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:transmission}
+2023-08-13 13:32:19,636:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:19,645:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:19,645:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:transmission}
+2023-08-13 13:32:19,675:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:19,676:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:transmission}
+2023-08-13 13:32:20,078:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:20,079:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:drive}
+2023-08-13 13:32:20,079:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:20,088:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:20,088:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:drive}
+2023-08-13 13:32:20,118:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:20,118:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:drive}
+2023-08-13 13:32:20,517:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:20,517:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:size}
+2023-08-13 13:32:20,517:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:20,526:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:20,526:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:size}
+2023-08-13 13:32:20,562:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:20,563:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:size}
+2023-08-13 13:32:21,001:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:21,001:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:21,001:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:21,010:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:21,010:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:21,099:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:21,099:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:21,782:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:21,782:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:state}
+2023-08-13 13:32:21,782:modellingLogger:ObjColumnSpecificationDescriptor:get_description:WARNING:column state is not in dataframe column.
+2023-08-13 13:32:21,782:modellingLogger:ObjColumnSpecificationDescriptor:get_description:INFO:END
+2023-08-13 13:32:21,790:modellingLogger:Preprocessing:__init__:INFO:START / args = {short_desc:TRAIN(SAN)}
+2023-08-13 13:32:21,790:modellingLogger:Preprocessing:__init__:INFO:END
+2023-08-13 13:32:21,791:modellingLogger:Preprocessing:get_preprocessed_dataset:INFO:START
+2023-08-13 13:32:21,791:modellingLogger:Preprocessing:_onehot_encoding:INFO:START
+2023-08-13 13:32:21,856:modellingLogger:Preprocessing:_onehot_encoding:INFO:END
+2023-08-13 13:32:21,879:modellingLogger:Preprocessing:get_preprocessed_dataset:INFO:END
+2023-08-13 13:32:21,884:modellingLogger:Preprocessing:__init__:INFO:START / args = {short_desc:TRAIN(SAN)}
+2023-08-13 13:32:21,884:modellingLogger:Preprocessing:__init__:INFO:END
+2023-08-13 13:32:21,885:modellingLogger:Preprocessing:get_preprocessed_dataframe:INFO:START
+2023-08-13 13:32:21,885:modellingLogger:Preprocessing:_onehot_encoding:INFO:START
+2023-08-13 13:32:21,951:modellingLogger:Preprocessing:_onehot_encoding:INFO:END
+2023-08-13 13:32:21,951:modellingLogger:Preprocessing:get_preprocessed_dataframe:INFO:END
+2023-08-13 13:32:21,956:modellingLogger:Learning:__init__:INFO:START
+2023-08-13 13:32:21,956:modellingLogger:Learning:__init__:INFO:END
+2023-08-13 13:32:21,956:modellingLogger:Learning:lasso_tuning:INFO:START
+2023-08-13 13:32:21,958:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:0.0001}
+2023-08-13 13:32:25,582:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:25,584:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:0.0003}
+2023-08-13 13:32:29,046:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:29,049:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:0.001}
+2023-08-13 13:32:30,297:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:30,310:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:0.003}
+2023-08-13 13:32:30,947:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:30,962:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:0.01}
+2023-08-13 13:32:31,384:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:31,393:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:0.03}
+2023-08-13 13:32:31,759:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:31,778:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:0.1}
+2023-08-13 13:32:32,365:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:32,367:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:0.3}
+2023-08-13 13:32:32,739:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:32,757:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:1.0}
+2023-08-13 13:32:33,106:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:33,122:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:3.0}
+2023-08-13 13:32:33,504:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:33,520:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:10.0}
+2023-08-13 13:32:33,844:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:33,862:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:30.0}
+2023-08-13 13:32:34,232:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:34,243:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:100.0}
+2023-08-13 13:32:34,549:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:34,564:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:300.0}
+2023-08-13 13:32:34,901:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:34,921:modellingLogger:Learning:_lasso_reg:INFO:START / args = {alpha:1000.0}
+2023-08-13 13:32:35,252:modellingLogger:Learning:_lasso_reg:INFO:END
+2023-08-13 13:32:35,895:modellingLogger:Learning:lasso_tuning:INFO:END
+2023-08-13 13:32:37,530:modellingLogger:DataSanitizer:__init__:INFO:START / args = {short_desc:TEST(SAN)}
+2023-08-13 13:32:37,535:modellingLogger:DataSanitizer:__init__:INFO:END
+2023-08-13 13:32:37,536:modellingLogger:DataSanitizer:get_test_dataframe:INFO:START
+2023-08-13 13:32:37,536:modellingLogger:DataSanitizer:_sanitize_region:INFO:START
+2023-08-13 13:32:37,536:modellingLogger:DataSanitizer:_drop_column:INFO:START / args = {col:region}
+2023-08-13 13:32:37,542:modellingLogger:DataSanitizer:_drop_column:INFO:END
+2023-08-13 13:32:37,543:modellingLogger:DataSanitizer:_sanitize_region:INFO:END
+2023-08-13 13:32:37,543:modellingLogger:DataSanitizer:_sanitize_state:INFO:START
+2023-08-13 13:32:37,544:modellingLogger:DataSanitizer:_drop_column:INFO:START / args = {col:state}
+2023-08-13 13:32:37,551:modellingLogger:DataSanitizer:_drop_column:INFO:END
+2023-08-13 13:32:37,552:modellingLogger:DataSanitizer:_sanitize_state:INFO:END
+2023-08-13 13:32:37,552:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:START
+2023-08-13 13:32:37,553:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:manufacturer,map_path:../config/transformmap_manufacturer.txt}
+2023-08-13 13:32:38,173:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:38,173:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:END
+2023-08-13 13:32:38,173:modellingLogger:DataSanitizer:_sanitize_condition:INFO:START
+2023-08-13 13:32:38,173:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:condition,map_path:../config/transformmap_condition.txt}
+2023-08-13 13:32:38,210:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:38,210:modellingLogger:DataSanitizer:_sanitize_condition:INFO:END
+2023-08-13 13:32:38,210:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:START
+2023-08-13 13:32:38,211:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:cylinders,map_path:../config/transformmap_cylinders.txt}
+2023-08-13 13:32:38,267:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:38,267:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:END
+2023-08-13 13:32:38,267:modellingLogger:DataSanitizer:_sanitize_size:INFO:START
+2023-08-13 13:32:38,267:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:size,map_path:../config/transformmap_size.txt}
+2023-08-13 13:32:38,328:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:38,328:modellingLogger:DataSanitizer:_sanitize_size:INFO:END
+2023-08-13 13:32:38,328:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:START
+2023-08-13 13:32:38,328:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:title_status,map_path:../config/transformmap_title_status.txt}
+2023-08-13 13:32:38,371:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:38,371:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:END
+2023-08-13 13:32:38,371:modellingLogger:DataSanitizer:_sanitize_type:INFO:START
+2023-08-13 13:32:38,371:modellingLogger:DataSanitizer:_sanitize_type:INFO:END
+2023-08-13 13:32:38,372:modellingLogger:DataSanitizer:_sanitize_price:INFO:START
+2023-08-13 13:32:38,372:modellingLogger:DataSanitizer:_sanitize_price:WARNING:price is not in dataframe column.
+2023-08-13 13:32:38,372:modellingLogger:DataSanitizer:_sanitize_price:INFO:END
+2023-08-13 13:32:38,372:modellingLogger:DataSanitizer:get_test_dataframe:INFO:END
+2023-08-13 13:32:38,377:modellingLogger:Preprocessing:__init__:INFO:START / args = {short_desc:TEST(SAN)}
+2023-08-13 13:32:38,377:modellingLogger:Preprocessing:__init__:INFO:END
+2023-08-13 13:32:38,377:modellingLogger:Preprocessing:get_preprocessed_dataframe:INFO:START
+2023-08-13 13:32:38,377:modellingLogger:Preprocessing:_onehot_encoding:INFO:START
+2023-08-13 13:32:38,458:modellingLogger:Preprocessing:_onehot_encoding:INFO:END
+2023-08-13 13:32:38,458:modellingLogger:Preprocessing:get_preprocessed_dataframe:INFO:END
+2023-08-13 13:32:38,463:modellingLogger:Predicting:__init__:INFO:START
+2023-08-13 13:32:38,464:modellingLogger:Predicting:__init__:INFO:END
+2023-08-13 13:32:38,464:modellingLogger:Predicting:get_predicted_result:INFO:START
+2023-08-13 13:32:38,708:modellingLogger:Predicting:get_predicted_result:INFO:END
+2023-08-13 13:32:39,022:modellingLogger:IntColumnSpecificationDescriptor:__init__:INFO:START / args ={short_desc:TEST}
+2023-08-13 13:32:39,027:modellingLogger:EDASpecificationDescriptor:__init__:INFO:START / args = {short_desc:TEST}
+2023-08-13 13:32:39,027:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:START
+2023-08-13 13:32:39,130:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:END
+2023-08-13 13:32:39,130:modellingLogger:EDASpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:39,130:modellingLogger:IntColumnSpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:39,130:modellingLogger:IntColumnSpecificationDescriptor:get_description:INFO:START
+2023-08-13 13:32:39,131:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:price}
+2023-08-13 13:32:39,131:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:39,138:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:39,138:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:price}
+2023-08-13 13:32:39,138:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:WARNING:Target val 'price' is not applicable to scatter plot.
+2023-08-13 13:32:39,138:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:price}
+2023-08-13 13:32:39,545:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:39,546:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:odometer}
+2023-08-13 13:32:39,546:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:39,552:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:39,552:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:odometer}
+2023-08-13 13:32:40,186:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:END
+2023-08-13 13:32:40,186:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:odometer}
+2023-08-13 13:32:40,609:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:40,610:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:year}
+2023-08-13 13:32:40,610:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:40,616:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:40,617:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:year}
+2023-08-13 13:32:41,226:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:END
+2023-08-13 13:32:41,226:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:year}
+2023-08-13 13:32:41,609:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:41,609:modellingLogger:IntColumnSpecificationDescriptor:get_description:INFO:END
+2023-08-13 13:32:41,614:modellingLogger:ObjColumnSpecificationDescriptor:__init__:INFO:START / args = {short_desc:TEST}
+2023-08-13 13:32:41,619:modellingLogger:EDASpecificationDescriptor:__init__:INFO:START / args = {short_desc:TEST}
+2023-08-13 13:32:41,619:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:START
+2023-08-13 13:32:41,720:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:END
+2023-08-13 13:32:41,720:modellingLogger:EDASpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:41,720:modellingLogger:ObjColumnSpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:41,720:modellingLogger:ObjColumnSpecificationDescriptor:get_description:INFO:START
+2023-08-13 13:32:41,720:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:region}
+2023-08-13 13:32:41,720:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:41,731:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:41,731:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:region}
+2023-08-13 13:32:44,684:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:44,685:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:region}
+2023-08-13 13:32:44,688:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:WARNING:pd.Series[region] category too much.
+2023-08-13 13:32:44,688:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:44,689:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:44,697:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:44,697:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:45,553:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:45,553:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:45,556:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:WARNING:pd.Series[manufacturer] category too much.
+2023-08-13 13:32:45,556:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:condition}
+2023-08-13 13:32:45,556:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:45,565:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:45,565:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:condition}
+2023-08-13 13:32:45,619:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:45,620:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:condition}
+2023-08-13 13:32:46,104:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:46,104:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:46,104:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:46,113:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:46,113:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:46,185:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:46,185:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:46,662:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:46,662:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:fuel}
+2023-08-13 13:32:46,662:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:46,671:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:46,672:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:fuel}
+2023-08-13 13:32:46,716:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:46,716:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:fuel}
+2023-08-13 13:32:47,149:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:47,150:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:title_status}
+2023-08-13 13:32:47,150:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:47,159:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:47,159:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:title_status}
+2023-08-13 13:32:47,212:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:47,212:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:title_status}
+2023-08-13 13:32:47,740:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:47,740:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:transmission}
+2023-08-13 13:32:47,740:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:47,749:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:47,749:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:transmission}
+2023-08-13 13:32:47,780:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:47,780:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:transmission}
+2023-08-13 13:32:48,193:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:48,194:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:drive}
+2023-08-13 13:32:48,194:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:48,203:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:48,203:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:drive}
+2023-08-13 13:32:48,234:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:48,234:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:drive}
+2023-08-13 13:32:48,634:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:48,634:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:size}
+2023-08-13 13:32:48,635:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:48,644:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:48,644:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:size}
+2023-08-13 13:32:48,717:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:48,717:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:size}
+2023-08-13 13:32:49,223:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:49,223:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:49,223:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:49,233:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:49,233:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:49,328:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:49,328:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:49,872:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:49,872:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:state}
+2023-08-13 13:32:49,872:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:49,883:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:49,883:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:state}
+2023-08-13 13:32:50,237:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:50,238:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:state}
+2023-08-13 13:32:50,239:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:WARNING:pd.Series[state] category too much.
+2023-08-13 13:32:50,239:modellingLogger:ObjColumnSpecificationDescriptor:get_description:INFO:END
+2023-08-13 13:32:50,245:modellingLogger:DataSanitizer:__init__:INFO:START / args = {short_desc:TRAIN}
+2023-08-13 13:32:50,245:modellingLogger:DataSanitizer:__init__:INFO:END
+2023-08-13 13:32:50,245:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:START
+2023-08-13 13:32:50,245:modellingLogger:DataSanitizer:_sanitize_year:INFO:START
+2023-08-13 13:32:50,245:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:year < 2050}
+2023-08-13 13:32:50,257:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(year < 2050)-> 3row removed.
+2023-08-13 13:32:50,258:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-13 13:32:50,258:modellingLogger:DataSanitizer:_sanitize_year:INFO:END
+2023-08-13 13:32:50,258:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:START
+2023-08-13 13:32:50,258:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:odometer > 0 & odometer < 500000}
+2023-08-13 13:32:50,274:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(odometer > 0 & odometer < 500000)-> 124row removed.
+2023-08-13 13:32:50,274:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-13 13:32:50,274:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:END
+2023-08-13 13:32:50,274:modellingLogger:DataSanitizer:_sanitize_region:INFO:START
+2023-08-13 13:32:50,274:modellingLogger:DataSanitizer:_drop_column:INFO:START / args = {col:region}
+2023-08-13 13:32:50,280:modellingLogger:DataSanitizer:_drop_column:INFO:END
+2023-08-13 13:32:50,281:modellingLogger:DataSanitizer:_sanitize_region:INFO:END
+2023-08-13 13:32:50,281:modellingLogger:DataSanitizer:_sanitize_state:INFO:START
+2023-08-13 13:32:50,281:modellingLogger:DataSanitizer:_drop_column:INFO:START / args = {col:state}
+2023-08-13 13:32:50,287:modellingLogger:DataSanitizer:_drop_column:INFO:END
+2023-08-13 13:32:50,287:modellingLogger:DataSanitizer:_sanitize_state:INFO:END
+2023-08-13 13:32:50,287:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:START
+2023-08-13 13:32:50,287:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:manufacturer,map_path:../config/transformmap_manufacturer.txt}
+2023-08-13 13:32:50,921:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:50,921:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:END
+2023-08-13 13:32:50,921:modellingLogger:DataSanitizer:_sanitize_condition:INFO:START
+2023-08-13 13:32:50,921:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:condition,map_path:../config/transformmap_condition.txt}
+2023-08-13 13:32:50,957:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:50,957:modellingLogger:DataSanitizer:_sanitize_condition:INFO:END
+2023-08-13 13:32:50,957:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:START
+2023-08-13 13:32:50,957:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:cylinders,map_path:../config/transformmap_cylinders.txt}
+2023-08-13 13:32:51,006:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:51,006:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:END
+2023-08-13 13:32:51,006:modellingLogger:DataSanitizer:_sanitize_size:INFO:START
+2023-08-13 13:32:51,006:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:size,map_path:../config/transformmap_size.txt}
+2023-08-13 13:32:51,057:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:51,057:modellingLogger:DataSanitizer:_sanitize_size:INFO:END
+2023-08-13 13:32:51,057:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:START
+2023-08-13 13:32:51,057:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:title_status,map_path:../config/transformmap_title_status.txt}
+2023-08-13 13:32:51,094:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-13 13:32:51,094:modellingLogger:DataSanitizer:_drop_nan:INFO:START / args = {col:title_status}
+2023-08-13 13:32:51,106:modellingLogger:DataSanitizer:_drop_nan:INFO:229 row removed.
+2023-08-13 13:32:51,106:modellingLogger:DataSanitizer:_drop_nan:INFO:END
+2023-08-13 13:32:51,106:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:END
+2023-08-13 13:32:51,107:modellingLogger:DataSanitizer:_sanitize_type:INFO:START
+2023-08-13 13:32:51,107:modellingLogger:DataSanitizer:_drop_nan:INFO:START / args = {col:type}
+2023-08-13 13:32:51,119:modellingLogger:DataSanitizer:_drop_nan:INFO:0 row removed.
+2023-08-13 13:32:51,120:modellingLogger:DataSanitizer:_drop_nan:INFO:END
+2023-08-13 13:32:51,120:modellingLogger:DataSanitizer:_sanitize_type:INFO:END
+2023-08-13 13:32:51,120:modellingLogger:DataSanitizer:_sanitize_price:INFO:START
+2023-08-13 13:32:51,120:modellingLogger:DataSanitizer:_to_log:INFO:START / args = {col:price}
+2023-08-13 13:32:51,122:modellingLogger:DataSanitizer:_to_log:INFO:END
+2023-08-13 13:32:51,122:modellingLogger:DataSanitizer:_sanitize_price:INFO:END
+2023-08-13 13:32:51,122:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:END
+2023-08-13 13:32:51,128:modellingLogger:IntColumnSpecificationDescriptor:__init__:INFO:START / args ={short_desc:Result(SAN)}
+2023-08-13 13:32:51,132:modellingLogger:EDASpecificationDescriptor:__init__:INFO:START / args = {short_desc:Result(SAN)}
+2023-08-13 13:32:51,133:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:START
+2023-08-13 13:32:51,222:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:END
+2023-08-13 13:32:51,223:modellingLogger:EDASpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:51,223:modellingLogger:IntColumnSpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:51,223:modellingLogger:IntColumnSpecificationDescriptor:get_description:INFO:START
+2023-08-13 13:32:51,223:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:price}
+2023-08-13 13:32:51,223:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:51,230:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:51,231:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:price}
+2023-08-13 13:32:51,231:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:WARNING:Target val 'price' is not applicable to scatter plot.
+2023-08-13 13:32:51,231:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:price}
+2023-08-13 13:32:51,683:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:51,683:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:odometer}
+2023-08-13 13:32:51,684:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:51,690:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:51,691:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:odometer}
+2023-08-13 13:32:52,432:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:END
+2023-08-13 13:32:52,433:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:odometer}
+2023-08-13 13:32:52,858:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:52,858:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:year}
+2023-08-13 13:32:52,858:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:52,865:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:52,865:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:START / args = {col:year}
+2023-08-13 13:32:53,576:modellingLogger:IntColumnSpecificationDescriptor:_export_scatterplot:INFO:END
+2023-08-13 13:32:53,576:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:START / args = {col:year}
+2023-08-13 13:32:53,969:modellingLogger:IntColumnSpecificationDescriptor:_expor_distplot:INFO:END
+2023-08-13 13:32:53,969:modellingLogger:IntColumnSpecificationDescriptor:get_description:INFO:END
+2023-08-13 13:32:53,974:modellingLogger:ObjColumnSpecificationDescriptor:__init__:INFO:START / args = {short_desc:Result(SAN)}
+2023-08-13 13:32:53,979:modellingLogger:EDASpecificationDescriptor:__init__:INFO:START / args = {short_desc:Result(SAN)}
+2023-08-13 13:32:53,979:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:START
+2023-08-13 13:32:54,064:modellingLogger:EDASpecificationDescriptor:_describe_columns_overview:INFO:END
+2023-08-13 13:32:54,065:modellingLogger:EDASpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:54,065:modellingLogger:ObjColumnSpecificationDescriptor:__init__:INFO:END
+2023-08-13 13:32:54,065:modellingLogger:ObjColumnSpecificationDescriptor:get_description:INFO:START
+2023-08-13 13:32:54,065:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:region}
+2023-08-13 13:32:54,065:modellingLogger:ObjColumnSpecificationDescriptor:get_description:WARNING:column region is not in dataframe column.
+2023-08-13 13:32:54,065:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:54,065:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:54,075:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:54,075:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:54,336:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:54,336:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:manufacturer}
+2023-08-13 13:32:55,379:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:55,380:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:condition}
+2023-08-13 13:32:55,380:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:55,389:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:55,389:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:condition}
+2023-08-13 13:32:55,444:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:55,444:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:condition}
+2023-08-13 13:32:56,071:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:56,071:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:56,071:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:56,081:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:56,081:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:56,147:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:56,147:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:cylinders}
+2023-08-13 13:32:56,670:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:56,670:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:fuel}
+2023-08-13 13:32:56,670:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:56,680:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:56,680:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:fuel}
+2023-08-13 13:32:56,725:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:56,725:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:fuel}
+2023-08-13 13:32:57,189:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:57,189:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:title_status}
+2023-08-13 13:32:57,189:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:57,198:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:57,198:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:title_status}
+2023-08-13 13:32:57,250:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:57,250:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:title_status}
+2023-08-13 13:32:57,747:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:57,748:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:transmission}
+2023-08-13 13:32:57,748:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:57,757:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:57,757:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:transmission}
+2023-08-13 13:32:57,788:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:57,788:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:transmission}
+2023-08-13 13:32:58,252:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:58,252:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:drive}
+2023-08-13 13:32:58,253:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:58,261:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:58,262:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:drive}
+2023-08-13 13:32:58,294:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:58,294:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:drive}
+2023-08-13 13:32:58,737:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:58,737:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:size}
+2023-08-13 13:32:58,738:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:58,746:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:58,746:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:size}
+2023-08-13 13:32:58,785:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:58,785:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:size}
+2023-08-13 13:32:59,255:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:59,255:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:59,256:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:START
+2023-08-13 13:32:59,265:modellingLogger:EDASpecificationDescriptor:_describe_column_specification:INFO:END
+2023-08-13 13:32:59,265:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:59,356:modellingLogger:ObjColumnSpecificationDescriptor:_describe_cat_specification_detail:INFO:END
+2023-08-13 13:32:59,356:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:START / args = {col:paint_color}
+2023-08-13 13:32:59,942:modellingLogger:ObjColumnSpecificationDescriptor:_box_plot:INFO:END
+2023-08-13 13:32:59,943:modellingLogger:EDASpecificationDescriptor:_is_df_column:INFO:START / args = {col:state}
+2023-08-13 13:32:59,943:modellingLogger:ObjColumnSpecificationDescriptor:get_description:WARNING:column state is not in dataframe column.
+2023-08-13 13:32:59,943:modellingLogger:ObjColumnSpecificationDescriptor:get_description:INFO:END
+2023-08-13 13:32:59,943:modellingLogger:__main__:main:INFO:END

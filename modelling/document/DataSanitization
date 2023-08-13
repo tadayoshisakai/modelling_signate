@@ -1,0 +1,18 @@
+Type:int64    Column Name:id    min:0    MAX:27531    mean:13765.5    median:13765.5    null:0
+Type:object    Column Name:region    Data variation:372    mode:central NJ    null:0
+Type:int64    Column Name:year    min:1921    MAX:3017    mean:2007.83    median:2011.0    null:0
+Type:object    Column Name:manufacturer    Data variation:125    mode:ford    null:0
+  L 変換マップで各カテゴリの変換処理実施
+Type:object    Column Name:condition    Data variation:6    mode:excellent    null:0
+Type:object    Column Name:cylinders    Data variation:8    mode:6 cylinders    null:0
+Type:object    Column Name:fuel    Data variation:6    mode:gas    null:1239
+Type:int64    Column Name:odometer    min:-131869    MAX:2946000    mean:116019.85    median:111444.5    null:0
+Type:object    Column Name:title_status    Data variation:7    mode:clean    null:456
+Type:object    Column Name:transmission    Data variation:3    mode:automatic    null:0
+Type:object    Column Name:drive    Data variation:3    mode:fwd    null:0
+Type:object    Column Name:size    Data variation:9    mode:full-size    null:0
+Type:object    Column Name:type    Data variation:14    mode:sedan    null:456
+Type:object    Column Name:paint_color    Data variation:12    mode:black    null:0
+Type:object    Column Name:state    Data variation:52    mode:ca    null:3304
+Type:int64    Column Name:price    min:1004    MAX:96818    mean:13468.72    median:9206.0    null:0
+size:27532, 16
