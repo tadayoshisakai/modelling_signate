@@ -10,3 +10,4 @@ log/*
 !.gitkeep
 data/*
 !gitkeep
+modelling/__pycache__
