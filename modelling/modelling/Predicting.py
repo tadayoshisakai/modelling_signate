@@ -10,6 +10,7 @@ from logutil import logutil
 import pandas as pd
 import numpy as np
 
+
 class Predicting():
     def __init__(self, df, model):
         self.logger = logutil().getlogger()
@@ -17,16 +18,20 @@ class Predicting():
         self.df = df
         self.model = model
         self.logger.info("END")
+
     def get_predicted_result(self):
         self.logger.info("START")
-        result = pd.DataFrame({"id" : self.df.index, "price" : np.exp(self.model.predict(self.df))})
+        result = pd.DataFrame({"id": self.df.index, "price": np.exp(
+            self.model.predict(self.df.drop("price", axis=1)))})
         result = result.set_index("id")
-        result.to_csv("../result/submit.csv", header=False)
+        result.to_csv("result/submit.csv", header=False)
         self.logger.info("END")
         return result
+
 
 def main():
     print("main")
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     main()

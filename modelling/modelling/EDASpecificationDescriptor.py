@@ -1,15 +1,4 @@
-# numpy , pandas
-import numpy as np
 import pandas as pd
-# scikit-learn
-from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import Lasso
-from sklearn.pipeline import make_pipeline
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
-# 可視化用ライブラリ
-import matplotlib.pyplot as plt
-import seaborn as sns
 from logutil import logutil
 
 
@@ -31,7 +20,7 @@ class EDASpecificationDescriptor:
     def _describe_column_specification(self, col):
         self.logger.info("START")
         result = self.df[col].describe(percentiles=[.25, .5, .75, .95])
-        result.to_csv("../EDA/" + self.short_desc +
+        result.to_csv("EDA/" + self.short_desc +
                       "_description(" + str(self.df[col].dtype) + ")_" + col + ".txt", sep="\t")
         self.logger.info("END")
         return result
@@ -49,7 +38,7 @@ class EDASpecificationDescriptor:
                 tmp_list.append("mean:" + str(round(self.df[e].mean(), 2)))
                 tmp_list.append("median:" + str(self.df[e].median()))
                 tmp_list.append("null:" + str(self.df[e].isnull().sum()))
-            else:
+            elif self.df[e].dtype == 'object':
                 tmp_list.append("Type:" + str(self.df[e].dtype))
                 tmp_list.append("Column Name:" + e)
                 tmp_list.append("Data variation:" +
@@ -59,7 +48,7 @@ class EDASpecificationDescriptor:
             mylist.append("    ".join(tmp_list))
         mylist.append(
             "size:" + str(self.df.shape[0]) + ", " + str(self.df.shape[1]))
-        f = open('../EDA/' + self.short_desc +
+        f = open('EDA/' + self.short_desc +
                  '_overview.txt', 'w')
         f.write("\n".join(mylist))
         f.close()
@@ -74,7 +63,8 @@ class EDASpecificationDescriptor:
 
     def _traindata_test(self):
         print("EDASpecificationDescriptor: _traindata_test()")
-        df = pd.read_csv("../data/train.csv")
+        df = pd.read_csv("data/train.csv")
+        print(df.head())
 
 
 if __name__ == "__main__":

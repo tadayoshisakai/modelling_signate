@@ -1,8 +1,12 @@
 .vscode/
-venv/
+modelling_env/
 figure/*
 !.gitkeep
 result/*
 !.gitkeep
 EDA/*
 !.gitkeep
+log/*
+!.gitkeep
+data/*
+!gitkeep

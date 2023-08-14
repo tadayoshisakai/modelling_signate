@@ -5,7 +5,7 @@ from logging import config, getLogger
 class logutil():
     def __init__(self):
         config.dictConfig(yaml.safe_load(
-            open("../config/logconfig.yaml").read()))
+            open("config/logconfig.yaml").read()))
         self.logger = getLogger("modellingLogger")
 
     def getlogger(self):

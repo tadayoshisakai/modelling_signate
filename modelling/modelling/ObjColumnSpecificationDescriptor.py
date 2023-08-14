@@ -6,12 +6,45 @@ from logutil import logutil
 
 
 class ObjColumnSpecificationDescriptor(EDASpecificationDescriptor):
-    def __init__(self, df, short_desc):
+    def __init__(self, df, obj_cols, short_desc):
         self.logger = logutil().getlogger()
         self.logger.info("START / args = {short_desc:" + short_desc + "}")
         super().__init__(df, short_desc)
-        self.obj_cols = ["region", "manufacturer", "condition", "cylinders", "fuel",
-                         "title_status", "transmission", "drive", "size", "paint_color", "state"]
+        self.obj_cols = obj_cols
+        self.logger.info("END")
+
+    def get_detail(self):
+        self.logger.info("START")
+        for c in self.obj_cols:
+            if self._is_df_column(c):
+                self._describe_cat_specification_detail(c)
+            else:
+                self.logger.warning(c + "is not dataframe columns.")
+        self.logger.info("END")
+
+    def get_boxplot(self):
+        self.logger.info("START")
+        for c in self.obj_cols:
+            if self._is_df_column(c):
+                self._export_box_plot(c)
+            else:
+                self.logger.warning(c + "is not dataframe columns.")
+        self.logger.info("END")
+
+    def get_valuecount(self):
+        self.logger.info("START")
+        for c in self.obj_cols:
+            if self._is_df_column(c):
+                self._export_valuecount(c)
+            else:
+                self.logger.warning(c + "is not dataframe columns.")
+        self.logger.info("END")
+
+    def _export_valuecount(self, col):
+        self.logger.info("START / args = {col:" + col + "}")
+        result = self.df[col].value_counts(dropna=False)
+        result.to_csv("EDA/" + self.short_desc + "_valuecount(" + str(
+            self.df[col].dtype) + ")_" + col + ".txt", sep="\t")
         self.logger.info("END")
 
     def _describe_cat_specification_detail(self, col):
@@ -21,11 +54,11 @@ class ObjColumnSpecificationDescriptor(EDASpecificationDescriptor):
             desc = self.df[self.tgval][self.df[col] == e].describe()
             desc.name = e
             result = pd.concat([result, desc], axis=1)
-        result.T.to_csv("../EDA/" + self.short_desc + "_description(" + str(
-            self.df[self.tgval].dtype) + ")_" + self.tgval + "(" + col + ").txt", sep="\t", encoding='utf-8')
+        result.T.to_csv("EDA/" + self.short_desc + "_description(" + str(
+            self.df[self.tgval].dtype) + ")_" + self.tgval + "(" + col + ").txt", sep="\t")
         self.logger.info("END")
 
-    def _box_plot(self, col):
+    def _export_box_plot(self, col):
         self.logger.info("START / args = {col:" + col + "}")
         if len(self.df[col].unique()) > 40:
             self.logger.warning("pd.Series[" + col + "] category too much.")
@@ -38,7 +71,7 @@ class ObjColumnSpecificationDescriptor(EDASpecificationDescriptor):
         else:
             sns.set(font_scale=1)
         sns.boxplot(x=col, y=self.tgval, data=self.df, palette='pastel')
-        plt.savefig("../EDA/" + self.short_desc + "_boxplot_" + col +
+        plt.savefig("EDA/" + self.short_desc + "_boxplot_" + col +
                     ".png", format="png", dpi=300)
         self.logger.info("END")
 
@@ -57,7 +90,7 @@ class ObjColumnSpecificationDescriptor(EDASpecificationDescriptor):
 
 def main():
     print("IntColumnSpecificationDescriptor: main()")
-    train = pd.read_csv("../data/train.csv")
+    train = pd.read_csv("data/train.csv")
     TrainColSpecDesc = ObjColumnSpecificationDescriptor(train, "TRAIN")
     TrainColSpecDesc.get_description()
 
