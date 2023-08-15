@@ -2,10 +2,6 @@
 modelling_env/
 figure/*
 !.gitkeep
-result/*
-!exhastive_lasso_tuning_pattern.csv
-!exhastive_lasso_tuning_result.csv
-!.gitkeep
 EDA/*
 !.gitkeep
 log/*
