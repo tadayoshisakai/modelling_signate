@@ -25,7 +25,7 @@ class Leaning():
         self.short_desc = short_desc
         self.df = df
         self.lasso_params = {
-            "alpha": [0.01]}
+            "alpha": [0.001, 0.01, 0.1]}
         # "alpha": [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]
         self.logger.info("END")
 
@@ -78,7 +78,7 @@ class Leaning():
         init_test_x = self.test_x
         init_test_y = self.test_y
         xcols = self.df.drop("price", axis=1).columns
-        origin_cols = ["year", "manufacturer", "condition", "cylinders", "fuel",
+        origin_cols = ["region", "year", "manufacturer", "condition", "cylinders", "fuel",
                        "odometer", "title_status", "transmission", "drive", "size", "type", "paint_color"]
         patterndf = pd.DataFrame(index=["name"], columns=origin_cols)
         resultdf = pd.DataFrame(
@@ -92,6 +92,7 @@ class Leaning():
             #     print("break")
             #     break
             pattern_name = 'PATT{:007}'.format(i + 1)
+            print(pattern_name)
             patterndf.loc[pattern_name, conb] = True
             dfcols = []
             for col in conb:

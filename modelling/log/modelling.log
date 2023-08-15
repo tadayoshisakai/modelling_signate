@@ -10,3 +10,162 @@
 2023-08-14 22:52:15,618:modellingLogger:Learning:__init__:INFO:START
 2023-08-14 22:52:15,618:modellingLogger:Learning:__init__:INFO:END
 2023-08-14 23:17:08,369:modellingLogger:Learning:main:INFO:END
+2023-08-15 14:35:08,546:modellingLogger:__main__:main:INFO:START
+2023-08-15 14:35:08,788:modellingLogger:EDADescriptor:__init__:INFO:START
+2023-08-15 14:35:08,788:modellingLogger:EDADescriptor:__init__:INFO:END
+2023-08-15 14:35:08,815:modellingLogger:DataSanitizer:__init__:INFO:START
+2023-08-15 14:35:08,815:modellingLogger:DataSanitizer:__init__:INFO:END
+2023-08-15 14:35:08,816:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:START
+2023-08-15 14:35:08,816:modellingLogger:DataSanitizer:_sanitize_year:INFO:START
+2023-08-15 14:35:08,816:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:year > 2050, col:year, mode:mean}
+2023-08-15 14:35:08,843:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(year > 2050)-> 7row complemented.
+2023-08-15 14:35:08,843:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:35:08,843:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:35:08,843:modellingLogger:DataSanitizer:_sanitize_year:INFO:END
+2023-08-15 14:35:08,843:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:START
+2023-08-15 14:35:08,843:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:odometer < 0 or odometer > 500000, col:odometer, mode:mean}
+2023-08-15 14:35:08,863:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(odometer < 0 or odometer > 500000)-> 395row complemented.
+2023-08-15 14:35:08,864:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:35:08,864:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:35:08,864:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:END
+2023-08-15 14:35:08,864:modellingLogger:DataSanitizer:_sanitize_region:INFO:START
+2023-08-15 14:35:08,864:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:region,map_path:config/transformmap_region.txt}
+2023-08-15 14:35:37,805:modellingLogger:__main__:main:INFO:START
+2023-08-15 14:35:38,017:modellingLogger:EDADescriptor:__init__:INFO:START
+2023-08-15 14:35:38,018:modellingLogger:EDADescriptor:__init__:INFO:END
+2023-08-15 14:35:38,044:modellingLogger:DataSanitizer:__init__:INFO:START
+2023-08-15 14:35:38,044:modellingLogger:DataSanitizer:__init__:INFO:END
+2023-08-15 14:35:38,044:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:START
+2023-08-15 14:35:38,044:modellingLogger:DataSanitizer:_sanitize_year:INFO:START
+2023-08-15 14:35:38,044:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:year > 2050, col:year, mode:mean}
+2023-08-15 14:35:38,069:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(year > 2050)-> 7row complemented.
+2023-08-15 14:35:38,069:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:35:38,070:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:35:38,070:modellingLogger:DataSanitizer:_sanitize_year:INFO:END
+2023-08-15 14:35:38,070:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:START
+2023-08-15 14:35:38,070:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:odometer < 0 or odometer > 500000, col:odometer, mode:mean}
+2023-08-15 14:35:38,089:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(odometer < 0 or odometer > 500000)-> 395row complemented.
+2023-08-15 14:35:38,089:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:35:38,089:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:35:38,089:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:END
+2023-08-15 14:35:38,090:modellingLogger:DataSanitizer:_sanitize_region:INFO:START
+2023-08-15 14:35:38,090:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:region,map_path:config/transformmap_region.txt}
+2023-08-15 14:35:41,548:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:35:41,548:modellingLogger:DataSanitizer:_sanitize_region:INFO:END
+2023-08-15 14:35:41,549:modellingLogger:DataSanitizer:_sanitize_state:INFO:START
+2023-08-15 14:35:41,549:modellingLogger:DataSanitizer:_sanitize_state:INFO:END
+2023-08-15 14:35:41,549:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:START
+2023-08-15 14:35:41,549:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:manufacturer,map_path:config/transformmap_manufacturer.txt}
+2023-08-15 14:35:42,814:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:35:42,814:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:END
+2023-08-15 14:35:42,814:modellingLogger:DataSanitizer:_sanitize_condition:INFO:START
+2023-08-15 14:35:42,814:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:condition,map_path:config/transformmap_condition.txt}
+2023-08-15 14:35:42,885:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:35:42,885:modellingLogger:DataSanitizer:_sanitize_condition:INFO:END
+2023-08-15 14:35:42,886:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:START
+2023-08-15 14:35:42,886:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:cylinders,map_path:config/transformmap_cylinders.txt}
+2023-08-15 14:35:42,970:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:35:42,970:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:END
+2023-08-15 14:35:42,971:modellingLogger:DataSanitizer:_sanitize_size:INFO:START
+2023-08-15 14:35:42,971:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:size,map_path:config/transformmap_size.txt}
+2023-08-15 14:35:43,062:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:35:43,063:modellingLogger:DataSanitizer:_sanitize_size:INFO:END
+2023-08-15 14:35:43,063:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:START
+2023-08-15 14:35:43,063:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:title_status,map_path:config/transformmap_title_status.txt}
+2023-08-15 14:35:43,125:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:35:43,125:modellingLogger:DataSanitizer:_complement_nan:INFO:START / args = {col:title_status}
+2023-08-15 14:35:43,205:modellingLogger:DataSanitizer:_complement_nan:INFO:END
+2023-08-15 14:35:43,206:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:END
+2023-08-15 14:35:43,206:modellingLogger:DataSanitizer:_sanitize_type:INFO:START
+2023-08-15 14:35:43,206:modellingLogger:DataSanitizer:_complement_nan:INFO:START / args = {col:type}
+2023-08-15 14:35:43,284:modellingLogger:DataSanitizer:_complement_nan:INFO:END
+2023-08-15 14:35:43,284:modellingLogger:DataSanitizer:_sanitize_type:INFO:END
+2023-08-15 14:35:43,756:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:END
+2023-08-15 14:35:43,791:modellingLogger:FeatureEngineer:__init__:INFO:START
+2023-08-15 14:35:43,792:modellingLogger:FeatureEngineer:__init__:INFO:END
+2023-08-15 14:35:43,792:modellingLogger:FeatureEngineer:get_engineered_dataframe:INFO:START
+2023-08-15 14:35:43,792:modellingLogger:FeatureEngineer:_to_log:INFO:START / args = {cols:[price]}
+2023-08-15 14:35:43,870:modellingLogger:FeatureEngineer:_to_log:INFO:END
+2023-08-15 14:35:43,870:modellingLogger:FeatureEngineer:_to_string:INFO:START / args = {cols:[year]}
+2023-08-15 14:35:43,925:modellingLogger:FeatureEngineer:_to_string:INFO:END
+2023-08-15 14:35:43,925:modellingLogger:FeatureEngineer:_onehot_encoding:INFO:START
+2023-08-15 14:35:44,200:modellingLogger:FeatureEngineer:_onehot_encoding:INFO:END
+2023-08-15 14:35:44,202:modellingLogger:FeatureEngineer:_drop_columns:INFO:START / args = {cols:[state,year,manufacturer,condition,cylinders,fuel,title_status,transmission,drive,size,type,paint_color]}
+2023-08-15 14:35:44,621:modellingLogger:FeatureEngineer:_drop_columns:INFO:END
+2023-08-15 14:35:49,959:modellingLogger:FeatureEngineer:get_engineered_dataframe:INFO:END
+2023-08-15 14:35:52,778:modellingLogger:Learning:__init__:INFO:START
+2023-08-15 14:35:52,778:modellingLogger:Learning:__init__:INFO:END
+2023-08-15 14:38:47,583:modellingLogger:__main__:main:INFO:START
+2023-08-15 14:38:47,808:modellingLogger:EDADescriptor:__init__:INFO:START
+2023-08-15 14:38:47,808:modellingLogger:EDADescriptor:__init__:INFO:END
+2023-08-15 14:38:47,836:modellingLogger:DataSanitizer:__init__:INFO:START
+2023-08-15 14:38:47,836:modellingLogger:DataSanitizer:__init__:INFO:END
+2023-08-15 14:38:47,836:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:START
+2023-08-15 14:38:47,837:modellingLogger:DataSanitizer:_sanitize_year:INFO:START
+2023-08-15 14:38:47,837:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:year > 2050, col:year, mode:mean}
+2023-08-15 14:38:47,862:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(year > 2050)-> 7row complemented.
+2023-08-15 14:38:47,863:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:38:47,863:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:38:47,863:modellingLogger:DataSanitizer:_sanitize_year:INFO:END
+2023-08-15 14:38:47,863:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:START
+2023-08-15 14:38:47,863:modellingLogger:DataSanitizer:_outlier_exception:INFO:START / args = {q:odometer < 0 or odometer > 500000, col:odometer, mode:mean}
+2023-08-15 14:38:47,883:modellingLogger:DataSanitizer:_outlier_exception:INFO:Querying(odometer < 0 or odometer > 500000)-> 395row complemented.
+2023-08-15 14:38:47,883:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:38:47,883:modellingLogger:DataSanitizer:_outlier_exception:INFO:END
+2023-08-15 14:38:47,883:modellingLogger:DataSanitizer:_sanitize_odometer:INFO:END
+2023-08-15 14:38:47,883:modellingLogger:DataSanitizer:_sanitize_region:INFO:START
+2023-08-15 14:38:47,883:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:region,map_path:config/transformmap_region.txt}
+2023-08-15 14:38:51,278:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:38:51,278:modellingLogger:DataSanitizer:_sanitize_region:INFO:END
+2023-08-15 14:38:51,278:modellingLogger:DataSanitizer:_sanitize_state:INFO:START
+2023-08-15 14:38:51,278:modellingLogger:DataSanitizer:_sanitize_state:INFO:END
+2023-08-15 14:38:51,278:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:START
+2023-08-15 14:38:51,278:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:manufacturer,map_path:config/transformmap_manufacturer.txt}
+2023-08-15 14:38:52,429:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:38:52,429:modellingLogger:DataSanitizer:_sanitize_manufacturer:INFO:END
+2023-08-15 14:38:52,429:modellingLogger:DataSanitizer:_sanitize_condition:INFO:START
+2023-08-15 14:38:52,430:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:condition,map_path:config/transformmap_condition.txt}
+2023-08-15 14:38:52,501:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:38:52,501:modellingLogger:DataSanitizer:_sanitize_condition:INFO:END
+2023-08-15 14:38:52,501:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:START
+2023-08-15 14:38:52,501:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:cylinders,map_path:config/transformmap_cylinders.txt}
+2023-08-15 14:38:52,585:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:38:52,585:modellingLogger:DataSanitizer:_sanitize_cylinders:INFO:END
+2023-08-15 14:38:52,585:modellingLogger:DataSanitizer:_sanitize_size:INFO:START
+2023-08-15 14:38:52,585:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:size,map_path:config/transformmap_size.txt}
+2023-08-15 14:38:52,674:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:38:52,675:modellingLogger:DataSanitizer:_sanitize_size:INFO:END
+2023-08-15 14:38:52,675:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:START
+2023-08-15 14:38:52,675:modellingLogger:DataSanitizer:_transform_category:INFO:START / args = {col:title_status,map_path:config/transformmap_title_status.txt}
+2023-08-15 14:38:52,743:modellingLogger:DataSanitizer:_transform_category:INFO:END
+2023-08-15 14:38:52,744:modellingLogger:DataSanitizer:_complement_nan:INFO:START / args = {col:title_status}
+2023-08-15 14:38:52,824:modellingLogger:DataSanitizer:_complement_nan:INFO:END
+2023-08-15 14:38:52,824:modellingLogger:DataSanitizer:_sanitize_title_status:INFO:END
+2023-08-15 14:38:52,824:modellingLogger:DataSanitizer:_sanitize_type:INFO:START
+2023-08-15 14:38:52,824:modellingLogger:DataSanitizer:_complement_nan:INFO:START / args = {col:type}
+2023-08-15 14:38:52,903:modellingLogger:DataSanitizer:_complement_nan:INFO:END
+2023-08-15 14:38:52,903:modellingLogger:DataSanitizer:_sanitize_type:INFO:END
+2023-08-15 14:38:53,389:modellingLogger:DataSanitizer:get_sanitized_dataframe:INFO:END
+2023-08-15 14:38:53,423:modellingLogger:FeatureEngineer:__init__:INFO:START
+2023-08-15 14:38:53,423:modellingLogger:FeatureEngineer:__init__:INFO:END
+2023-08-15 14:38:53,424:modellingLogger:FeatureEngineer:get_engineered_dataframe:INFO:START
+2023-08-15 14:38:53,424:modellingLogger:FeatureEngineer:_to_log:INFO:START / args = {cols:[price]}
+2023-08-15 14:38:53,501:modellingLogger:FeatureEngineer:_to_log:INFO:END
+2023-08-15 14:38:53,501:modellingLogger:FeatureEngineer:_to_string:INFO:START / args = {cols:[year]}
+2023-08-15 14:38:53,555:modellingLogger:FeatureEngineer:_to_string:INFO:END
+2023-08-15 14:38:53,555:modellingLogger:FeatureEngineer:_onehot_encoding:INFO:START
+2023-08-15 14:38:53,818:modellingLogger:FeatureEngineer:_onehot_encoding:INFO:END
+2023-08-15 14:38:53,819:modellingLogger:FeatureEngineer:_drop_columns:INFO:START / args = {cols:[state,region,year,manufacturer,condition,cylinders,fuel,title_status,transmission,drive,size,type,paint_color]}
+2023-08-15 14:38:54,267:modellingLogger:FeatureEngineer:_drop_columns:INFO:END
+2023-08-15 14:38:59,606:modellingLogger:FeatureEngineer:get_engineered_dataframe:INFO:END
+2023-08-15 14:39:02,767:modellingLogger:Learning:__init__:INFO:START
+2023-08-15 14:39:02,768:modellingLogger:Learning:__init__:INFO:END
+2023-08-15 14:39:11,389:modellingLogger:Predicting:__init__:INFO:START
+2023-08-15 14:39:11,390:modellingLogger:Predicting:__init__:INFO:END
+2023-08-15 14:39:11,392:modellingLogger:Predicting:get_predicted_result:INFO:START
+2023-08-15 14:39:12,004:modellingLogger:Predicting:get_predicted_result:INFO:END
+2023-08-15 14:39:12,308:modellingLogger:__main__:main:INFO:END
+2023-08-15 14:41:18,858:modellingLogger:Learning:main:INFO:START
+2023-08-15 14:41:20,686:modellingLogger:Learning:__init__:INFO:START
+2023-08-15 14:41:20,686:modellingLogger:Learning:__init__:INFO:END
+2023-08-15 21:38:12,806:modellingLogger:Learning:main:INFO:END

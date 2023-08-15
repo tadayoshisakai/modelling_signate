@@ -15,9 +15,9 @@ class FeatureEngineer():
         self.logger.info("START")
         self._to_log(["price"])
         self._to_string(["year"])
-        self._onehot_encoding(["year", "manufacturer", "condition", "cylinders", "fuel",
+        self._onehot_encoding(["region", "year", "manufacturer", "condition", "cylinders", "fuel",
                               "title_status", "transmission", "drive", "size", "type", "paint_color"])
-        self._drop_columns(["region", "state", "year", "manufacturer", "condition", "cylinders", "fuel",
+        self._drop_columns(["state", "region", "year", "manufacturer", "condition", "cylinders", "fuel",
                             "title_status", "transmission", "drive", "size", "type", "paint_color"])
         self.df.to_csv("data/featureengineereddataframe_" +
                        self.short_desc + ".csv")

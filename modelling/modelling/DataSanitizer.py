@@ -49,7 +49,8 @@ class DataSanitizer():
 
     def _sanitize_region(self):
         self.logger.info("START")
-        # self._drop_column("region")
+        self._transform_category(
+            "region", "config/transformmap_region.txt")
         self.logger.info("END")
 
     def _sanitize_state(self):

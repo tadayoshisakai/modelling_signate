@@ -1,0 +1,373 @@
+from,to
+central NJ,nj
+rhode island,ri
+rochester,ny
+albany,ny
+"washington, DC",dc
+las vegas,nv
+tampa bay area,fl
+los angeles,ca
+richmond,va
+dallas / fort worth,tx
+pittsburgh,pa
+new york city,ny
+tucson,az
+philadelphia,pa
+north jersey,nj
+detroit metro,mi
+albuquerque,nm
+syracuse,ny
+stockton,ca
+denver,co
+phoenix,az
+baltimore,md
+wichita,ks
+madison,wi
+south jersey,nj
+south florida,fl
+bakersfield,ca
+knoxville,tn
+san diego,ca
+reno / tahoe,nv
+nashville,tn
+mcallen / edinburg,tx
+inland empire,ca
+boise,id
+atlanta,ga
+grand rapids,ms
+chicago,il
+cleveland,oh
+spokane / coeur d'alene,wa
+orlando,fl
+norfolk / hampton roads,va
+orange county,ca
+vermont,vt
+san antonio,tx
+el paso,tx
+louisville,ky
+redding,ca
+charlotte,nc
+columbus,oh
+minneapolis / st paul,mn
+jacksonville,fl
+tulsa,ok
+"st louis, MO",ca
+cincinnati,oh
+sarasota-bradenton,fl
+dayton / springfield,oh
+sacramento,ca
+treasure coast,fl
+milwaukee,wi
+fayetteville,nc
+tallahassee,fl
+st cloud,mn
+fargo / moorhead,nd
+hawaii,hi
+eugene,or
+hartford,in
+greenville / upstate,ny
+colorado springs,co
+indianapolis,in
+long island,ny
+western slope,co
+duluth / superior,wi
+medford-ashland,or
+bend,or
+boulder,nv
+houston,tx
+cedar rapids,ia
+new haven,ct
+rockford,il
+boston,ma
+toledo,oh
+des moines,ia
+omaha / council bluffs,nv
+anchorage / mat-su,ak
+hudson valley,ny
+northern michigan,mi
+akron / canton,oh
+south bend / michiana,in
+san luis obispo,ca
+austin,tx
+new hampshire,nh
+buffalo,ny
+fresno / madera,ca
+oklahoma city,ok
+raleigh / durham / CH,nc
+south coast,ca
+pueblo,co
+western massachusetts,ma
+yakima,wa
+SF bay area,ca
+daytona beach,fl
+chattanooga,tn
+kennewick-pasco-richland,wa
+ventura county,ca
+lincoln,ne
+memphis,tn
+bozeman,mt
+mohave county,az
+billings,mt
+seattle-tacoma,wa
+modesto,ca
+"kansas city, MO",mo
+st george,ut
+yuba-sutter,ca
+worcester / central MA,ma
+harrisonburg,va
+flint,mi
+salem,ma
+asheville,nc
+greensboro,nc
+prescott,az
+space coast,fl
+maine,me
+fort wayne,in
+lancaster,pa
+cape cod / islands,ma
+palm springs,ca
+humboldt county,ca
+hickory / lenoir,nc
+scranton / wilkes-barre,pa
+ft myers / SW florida,fl
+lehigh valley,pa
+monterey bay,ca
+erie,pa
+oregon coast,or
+appleton-oshkosh-FDL,wi
+springfield,il
+columbia,sc
+portland,or
+flagstaff / sedona,az
+green bay,wi
+wilmington,de
+new orleans,la
+williamsport,pa
+youngstown,oh
+york,pa
+rapid city / west SD,sd
+bismarck,nd
+ocala,fl
+birmingham,al
+roanoke,va
+delaware,de
+lexington,ma
+fredericksburg,va
+santa barbara,ca
+east idaho,id
+wausau,wi
+lubbock,tx
+lakeland,fl
+missoula,mt
+myrtle beach,sc
+eau claire,wi
+ann arbor,mi
+winchester,va
+binghamton,ny
+pensacola,fl
+bellingham,wa
+winston-salem,nc
+utica-rome-oneida,ny
+eastern CT,ct
+santa fe / taos,nm
+jersey shore,nj
+western maryland,md
+champaign urbana,il
+killeen / temple / ft hood,tx
+corvallis/albany,or
+salt lake city,ut
+mobile,al
+lansing,mi
+topeka,ks
+harrisburg,pa
+odessa / midland,tx
+chico,ca
+huntsville / decatur,al
+gainesville,fl
+kalispell,mt
+evansville,in
+fort collins / north CO,co
+gold country,ca
+watertown,ma
+northwest CT,ct
+charleston,sc
+eastern NC,nc
+imperial county,ca
+north dakota,nd
+waterloo / cedar falls,ia
+central michigan,mi
+lynchburg,va
+kalamazoo,mi
+plattsburgh-adirondacks,ny
+corpus christi,tx
+upper peninsula,mi
+altoona-johnstown,pa
+twin falls,id
+visalia-tulare,ca
+la crosse,wi
+okaloosa / walton,fl
+santa maria,ca
+amarillo,tx
+saginaw-midland-baycity,mi
+wyoming,wy
+poconos,pa
+augusta,ga
+joplin,mo
+little rock,ar
+mankato,mn
+jackson,ms
+las cruces,mn
+eastern panhandle,wv
+sioux falls / SE SD,sd
+florence / muscle shoals,al
+columbia / jeff city,mo
+macon / warner robins,ga
+tyler / east TX,tx
+sioux city,ia
+roseburg,or
+lewiston / clarkston,id
+dubuque,ia
+grand island,ne
+fort smith,ar
+skagit / island / SJI,wa
+grand forks,nd
+bowling green,ky
+athens,ga
+shreveport,la
+north platte,ne
+yuma,az
+high rockies,co
+east oregon,or
+bloomington,in
+brownsville,tx
+elmira-corning,ny
+show low,az
+laredo,tx
+pullman / moscow,wa
+helena,mt
+lima / findlay,oh
+muskegon,mi
+texoma,oh
+waco,tx
+chautauqua,ny
+great falls,mt
+savannah / hinesville,ga
+reading,pa
+mansfield,oh
+southwest VA,va
+dothan,al
+southwest michigan,mi
+hattiesburg,ms
+college station,tx
+sandusky,oh
+st augustine,fl
+eastern shore,md
+outer banks,nc
+charlottesville,va
+boone,nc
+tri-cities,wa
+sierra vista,az
+sheboygan,wi
+state college,pa
+merced,ca
+northern panhandle,wv
+brunswick,me
+northwest OK,ok
+florence,sc
+bloomington-normal,il
+muncie / anderson,in
+texarkana,tx
+tuscaloosa,al
+olympic peninsula,wa
+eastern kentucky,ky
+ames,ia
+peoria,il
+stillwater,ok
+huntington-ashland,wv
+southwest MN,mn
+northeast SD,sd
+monroe,la
+wenatchee,wa
+new river valley,va
+butte,mt
+abilene,tx
+la salle co,co
+lawrence,ks
+lafayette,in
+morgantown,wv
+valdosta,ga
+finger lakes,ny
+ithaca,ny
+southern illinois,il
+southeast KS,ks
+eastern CO,co
+siskiyou county,ca
+moses lake,wa
+jonesboro,ar
+manhattan,ny
+north central FL,fl
+janesville,wi
+danville,ca
+montgomery,al
+potsdam-canton-massena,ny
+mendocino county,ca
+beaumont / port arthur,tx
+kenai peninsula,ak
+battle creek,mi
+bemidji,mi
+holland,mi
+susanville,ca
+southeast IA,ia
+gulfport / biloxi,ms
+roswell / carlsbad,nm
+north mississippi,ms
+southeast missouri,mo
+st joseph,mo
+elko,nv
+iowa city,ia
+annapolis,md
+lafayette / west lafayette,in
+panama city,fl
+kenosha-racine,wi
+terre haute,in
+clovis / portales,nm
+heartland florida,fl
+galveston,tx
+wichita falls,tx
+northwest GA,ga
+florida keys,fl
+northern WI,wi
+mason city,ia
+eastern montana,mt
+western KY,ky
+klamath falls,or
+port huron,mi
+victoria,tx
+deep east texas,tx
+brainerd,mn
+gadsden-anniston,al
+baton rouge,la
+lake of the ozarks,mo
+zanesville / cambridge,oh
+kokomo,in
+lake charles,la
+del rio / eagle pass,tx
+cumberland valley,pa
+auburn,ca
+farmington,me
+lawton,ok
+northwest KS,ks
+south dakota,sd
+mattoon-charleston,il
+fairbanks,ak
+southwest KS,ks
+fort dodge,ia
+scottsbluff / panhandle,ne
+ashtabula,oh
+glens falls,ny
+the thumb,mi
+southern maryland,md
+san angelo,tx
+hanford-corcoran,ca
+southern WV,wv
+oneonta,ny
